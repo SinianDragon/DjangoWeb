@@ -1,0 +1,113 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+    border-radius: 50px;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+
+.tags-item {
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tags-item:hover{
+    border-radius: 25px;
+    color: #000000;
+    background:inherit;
+    background-color: rgb(171, 191, 255);
+    text-decoration: none;
+    transition: background-color 0.25s ease-in-out;
+}
+
+table{ background-color: #B9B973; }
+
+.head_tb{
+    width:100%;
+    padding: 2.5%;
+}
+
+#head_shot{
+    border-radius: 20px;
+}
+
+.publication {
+    display: flex; 
+    justify-content: space-between; 
+}
+.pub_left {
+    flex: 1;
+    text-align: left;
+}
+.pub_right {
+    flex: 1; 
+    text-align: right; 
+}
+
+
+/* paper item */
+.paper_table{
+    width: 100%;
+}
+
+.paper_td{
+    width: 30%;
+    padding-left: 3%;
+}
+
+.paper_img{
+    border-radius: 30px;
+}
+
+.paper_des{
+    padding-left: 5%;
+}
+
+
+/* project item */
+.project_table{
+    width: 100%;
+}
+
+.project_des{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+    .project_des {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+@media (max-width: 600px) {
+    .project_des {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+.project_td{
+    width: 30%; 
+}
+
+
+/* experience */
+.exp{
+    width: 100%;
+}
+
+.exp_left{
+    width: 40%;
+    padding-left: 5%;
+}
+
+.exp_right{
+    width: auto;
+}
